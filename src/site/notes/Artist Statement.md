@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/artist-statement/"}
+{"dg-publish":true,"permalink":"/artist-statement/","created":"2025-01-30T18:10:51.029+08:00","updated":"2025-01-30T21:03:20.452+08:00"}
 ---
 
 # Observe.
