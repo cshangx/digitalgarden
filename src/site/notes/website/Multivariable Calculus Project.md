@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T23:20:01.285+08:00"}
+{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T23:24:13.810+08:00"}
 ---
 
 
@@ -124,14 +124,14 @@ This is why for a tumor with a radius of **2.5 cm**, after heating up 1/4 the ra
 
 
 
-| **Radius of tumor that has reached an effective temperature** | V_t *r^3 | Vt/V  |
+| **Radius of tumor that has reached an effective temperature** | Vt       | Vt/V  |
 | ------------------------------------------------------------- | -------- | ----- |
-| 1/4r                                                          | 1/48     | 1/64  |
-| 1/3r                                                          | 4/81     | 1/27  |
-| 1/2r                                                          | 1/6      | 1/8   |
-| 2/3r                                                          | 32/81    | 8/27  |
-| 3/4r                                                          | 9/16     | 27/64 |
-| r                                                             | 4/3      | 1     |
+| 1/4r                                                          | 1/48r^3  | 1/64  |
+| 1/3r                                                          | 4/81r^3  | 1/27  |
+| 1/2r                                                          | 1/6r^3   | 1/8   |
+| 2/3r                                                          | 32/81r^3 | 8/27  |
+| 3/4r                                                          | 9/16r^3  | 27/64 |
+| r                                                             | 4/3r^3   | 1     |
 
 As the table above suggests, the ratio of Vt to V is always the coefficient of the given radius of the tumor cubed. 
 
