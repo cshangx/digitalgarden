@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:52:51.389+08:00"}
+{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:59:28.279+08:00"}
 ---
 
 
@@ -11,26 +11,20 @@
 >**Hyperthermia Treatments for Tumors** 
 >**February 26, 2025**
 
+<br>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> <br> 
+<br> 
+<br> <br> <br> 
 
 
 
@@ -76,9 +70,17 @@ For cancers like leukemia that affect bones, another viable way to treat is to r
 
 
 ![Pasted image 20250226214953.png|350](/img/user/Pasted%20image%2020250226214953.png)
+<br>
+<br>
+<br>
+<br>
+<br>
 
+<br>
+<br>
 
-
+<br>
+<br>
 
 
 
@@ -90,18 +92,14 @@ For cancers like leukemia that affect bones, another viable way to treat is to r
 ### I. A Necessary Measurement?
 
 It is not necessary to measure the temperature of the tumor's center once we have verified that the temperature at half the radius of the tumor has already reached the effective temperature. Since it is given that the temperature gets hotter closer to the center, we can assume that the tumor's center is already hotter than the effective temperature, since the temperature at half the radius has indeed reached the effective temperature. 
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ---------------------
@@ -150,23 +148,18 @@ $$
 \frac{3}{4}=x^3, \:\:x=0.90856.
 $$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ---------------------
 
@@ -283,22 +276,18 @@ $$
 $$
 Although it could be improved, my estimate is somewhat decent. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ---------------------
@@ -365,6 +354,9 @@ $$
 =-\frac{1}{8}\Bigg(\frac{1}{11}\sin(11\phi)-\frac{1}{13}\sin(13\phi)-\frac{1}{5}\sin(5\phi)+\frac{1}{3}\sin(-3\phi)\Bigg)\Bigg|_{0}^{\pi}=0.
 $$
 
+<br>
+<br>
+<br>
 
 ___
 
@@ -426,23 +418,18 @@ $$
 $$
 Verifying with a *calculator*, we obtain **2.06036**, which is identical to the answer we obtained through integration. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 _________
@@ -465,6 +452,14 @@ _________
 
 [https://oncolifehospitals.com/2024/06/04/make-informed-decisions-know-your-cancer-treatment-options/](https://oncolifehospitals.com/2024/06/04/make-informed-decisions-know-your-cancer-treatment-options/)
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 # That's all!
