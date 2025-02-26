@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:06:29.141+08:00"}
+{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:27:08.782+08:00"}
 ---
 
-________
+
 ---
 
 
@@ -11,6 +11,23 @@ ________
 ### Hyperthermia Treatments for Tumors 
 #### February 26, 2025
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+____
 
 ### Part 1: Different shapes and types of tumors, Types of Cancer treatments, and their Effectiveness (500 words)
 
@@ -270,24 +287,21 @@ Integrating the volume of the bumpy sphere, we get:
 $$
 V=\int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{0.75+0.35sin8\theta sin4\phi}\rho
 { #2sin}
-\phi \: \: \: d\rho d\phi d\theta
+\phi \: d\rho d\phi d\theta
 $$
 
+
 $$
-V=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}(0.75+0.35sin8\theta sin4\phi)
-{ #3sin}
-\phi \: \: \: d\phi d\theta.
+V=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}(0.75+0.35sin8\theta sin4\phi)^3sin\phi \: \: \: d\phi d\theta.
 $$
 
 ##### Expanding the integral, we get:
 
 $$
 V=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi} 0.35^3\sin^3(8\theta)\sin^3(4\phi)\sin(\phi)+3*0.35^2*0.75\sin^2(8\theta)\sin^2(4\phi)\sin(\phi)+3*0.035*0.75^2\sin(8\theta)\sin(4\phi)\sin(\phi
-) + 0.75^3sin(\phi)\: \: \: d\phi d\theta
+) + 0.75^3sin(\phi)d\phi d\theta
 $$
-$$
- _{scroll \: to\:see\:full\:integral}
-$$
+
 ##### Evaluating each phi-component term separately with respect to **phi**, we get:
 
 $$
