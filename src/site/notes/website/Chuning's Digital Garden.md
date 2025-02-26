@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/chuning-s-digital-garden/","tags":["gardenEntry"],"created":"2025-01-30T17:28:38.654+08:00","updated":"2025-01-30T22:06:32.667+08:00"}
+{"dg-publish":true,"permalink":"/website/chuning-s-digital-garden/","tags":["gardenEntry"],"created":"2025-01-30T17:28:38.654+08:00","updated":"2025-02-26T22:16:26.513+08:00"}
 ---
 
 ### Who Am I?
@@ -21,7 +21,7 @@ We live for art. Likewise, art cannot live without us.
 ## My Art:
 ### [[website/Artist Statement\|Artist Statement]]
 ### [[website/Portfolio\|Portfolio]]
-### [[website/Casual Sketch Practices\|Casual Sketch Practices]]
+### [[website/Math\|Math]]
 
 ## Major Project(s):
 
@@ -29,6 +29,9 @@ We live for art. Likewise, art cannot live without us.
 >[!info] student-organized event dedicated to bridge the relationship between STEM and Art subjects 
 
 
+### Math:
+
+[[website/Multivariable Calculus Project\|Multivariable Calculus Project]]
 
 
 
