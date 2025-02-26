@@ -1,15 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:39:22.252+08:00"}
+{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:48:39.881+08:00"}
 ---
 
 
 ---
 
 
-## Chuning Shang
-## Project 3 Chapter 14
-### Hyperthermia Treatments for Tumors 
-#### February 26, 2025
+>**Chuning Shang**
+>**Project 3 Chapter 14**
+>**Hyperthermia Treatments for Tumors** 
+>**February 26, 2025**
 
 
 
@@ -32,6 +32,11 @@
 
 
 
+
+
+
+
+Enjoy!
 
 ____
 
@@ -57,7 +62,7 @@ At the opposite end of the spectrum, are treatments that are applied using heat.
 >[!info] **radiofrequency ablation**, which uses heat from 50 to 100 degrees Celsius introduced into the tumor using a needle probe. 
 
 This treatment is typically used for small tumors less than 5 centimeters in diameter, and effectively destroys the tumor cells. On the other hand, 
->[!info] ** Hyperthermia** is applied to tumor cells that are recurrent and soft tissue sarcomas using external heat applications such as microwaves to around 40 to 50 degrees Celsius, allowing larger tumor areas to be treated and then used alongside another treatment method for easier cancer elimination.
+>[!info] **hyperthermia** is applied to tumor cells that are recurrent and soft tissue sarcomas using external heat applications such as microwaves to around 40 to 50 degrees Celsius, allowing larger tumor areas to be treated and then used alongside another treatment method for easier cancer elimination.
 
 For skin cancer, 
 >[!info] **topical treatments** are applied to target the cancerous skin cells on the skin's surface.
@@ -180,18 +185,14 @@ $$
 ##### Next, we shall integrate the volume of the wrinkly sphere:
 
 $$
-V=\int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{0.5+0.345\sin8\theta \sin\phi}\rho
-{ #2}
-\sin\phi \: \: \: d\rho d\phi d\theta
+V=\int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{0.5+0.345\sin8\theta \sin\phi}\rho^{2} \sin\phi \: \: \: d\rho d\phi d\theta
 $$
 
 $$
-=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}(0.5+0.345\sin8\theta \sin\phi)
-{ #3}
-\sin\phi \: \: \: d\phi d\theta.
+=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}(0.5+0.345\sin8\theta \sin\phi) ^{3}\sin\phi \: \: \: d\phi d\theta.
 $$
 $$
-=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}0.345^3sin^3(8\theta)sin^4(\phi)+3(0.5)(0.345)^2 sin^2(8\theta)sin^3(\phi)+3(0.5)^2(0.345)sin(8\theta)sin^2(\phi)+0.5^3sin(\phi) \: \: \: d\rho d\phi d\theta
+=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}0.345^{3}\sin^{3}(8\theta)\sin^{4}(\phi)+3(0.5)(0.345)^{2} \sin^{2}(8\theta)\sin^3(\phi)+3(0.5)^{2}(0.345)\sin(8\theta)\sin^{2}(\phi)+0.5^3\sin(\phi) \: \: \: d\rho d\phi d\theta
 $$
 
 $$
@@ -311,9 +312,7 @@ Although it could be improved, my estimate is somewhat decent.
 
 Integrating the volume of the bumpy sphere, we get:
 $$
-V=\int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{0.75+0.35\sin8\theta \sin4\phi}\rho
-{ #2}
- \sin\phi \: d\rho d\phi d\theta
+V=\int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{0.75+0.35\sin8\theta \sin4\phi}\rho ^{2} \sin\phi \: d\rho d\phi d\theta
 $$
 
 
