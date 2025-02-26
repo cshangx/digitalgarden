@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:59:28.279+08:00"}
+{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T23:20:01.285+08:00"}
 ---
 
 
@@ -185,12 +185,12 @@ $$
 =\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}(0.5+0.345\sin8\theta \sin\phi) ^{3}\sin\phi \: \: \: d\phi d\theta.
 $$
 $$
-=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}0.345^{3}\sin^{3}(8\theta)\sin^{4}(\phi)+3(0.5)(0.345)^{2} \sin^{2}(8\theta)\sin^3(\phi)+3(0.5)^{2}(0.345)\sin(8\theta)\sin^{2}(\phi)+0.5^3\sin(\phi) \: \: \: d\rho d\phi d\theta
+=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}0.345^{3}\sin^{3}(8\theta)\sin^{4}(\phi)+3(0.5)(0.345)^{2} \sin^{2}(8\theta)\sin^3(\phi)
+$$
+$$
++3(0.5)^{2}(0.345)\sin(8\theta)\sin^{2}(\phi)+0.5^3\sin(\phi) \: \: \: d\rho d\phi d\theta
 $$
 
-$$
- _{scroll \: to\:see\:full\:integral}
-$$
 
 We can separately apply the **Wallis' formula** to each term and differentiate with respect to **phi**:
 ___
@@ -312,18 +312,22 @@ $$
 ##### Expanding the integral, we get:
 
 $$
-V=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi} 0.35^3\sin^3(8\theta)\sin^3(4\phi)\sin(\phi)+3*0.35^2*0.75\sin^2(8\theta)\sin^2(4\phi)\sin(\phi)+3*0.035*0.75^2\sin(8\theta)\sin(4\phi)\sin(\phi
+V=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi} 0.35^3\sin^3(8\theta)\sin^3(4\phi)\sin(\phi)+3*0.35^2*0.75\sin^2(8\theta)\sin^2(4\phi)\sin(\phi)
+$$
+$$
++3*0.035*0.75^2\sin(8\theta)\sin(4\phi)\sin(\phi
 ) + 0.75^3sin(\phi)d\phi d\theta
 $$
 
 ##### Evaluating each phi-component term separately with respect to **phi**, we get:
 
 $$
-\int_{0}^{\pi} \sin^3(4\phi)\sin(\phi)d\phi = \int_{0}^{\pi} (1-\cos^2(4\phi))sin(\phi)sin(4\phi)d\phi= \int_{0}^{\pi} \sin(\phi)\sin(4\phi)d\phi-\int_{0}^{\pi}\cos^2(4\phi)sin(\phi)sin(4\phi)d\phi
+\int_{0}^{\pi} \sin^3(4\phi)\sin(\phi)d\phi = \int_{0}^{\pi} (1-\cos^2(4\phi))sin(\phi)sin(4\phi)d\phi
 $$
 $$
- _{scroll \: to\:see\:full\:integral}
+= \int_{0}^{\pi} \sin(\phi)\sin(4\phi)d\phi-\int_{0}^{\pi}\cos^2(4\phi)sin(\phi)sin(4\phi)d\phi
 $$
+
 We know that:
 
 $$
