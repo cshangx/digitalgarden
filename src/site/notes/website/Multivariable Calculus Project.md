@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:33:02.558+08:00"}
+{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:39:22.252+08:00"}
 ---
 
 
@@ -121,14 +121,14 @@ This is why for a tumor with a radius of **2.5 cm**, after heating up 1/4 the ra
 
 
 
-| **Radius of tumor that has reached an effective temperature** | $$V_t \: \: \: $$ | $$\frac{V_t}{V}\: \: \: \: \: \: $$ |
-| ------------------------------------------------------------- | ----------------- | ----------------------------------- |
-| $$\frac{1}{4}r$$                                              | $$1/48r^3$$       | $$\frac{1}{64}$$                    |
-| $$\frac{1}{3}r$$                                              | $$4/81r^3$$       | $$\frac{1}{27}$$                    |
-| $$\frac{1}{2}r$$                                              | $$1/6r^3$$        | $$\frac{1}{8}$$                     |
-| $$\frac{2}{3}r$$                                              | $$32/81r^3$$      | $$\frac{8}{27}$$                    |
-| $$\frac{3}{4}r$$                                              | $$9/16r^3$$       | $$\frac{27}{64}$$                   |
-| $$r$$                                                         | $$4/3r^3$$        | $$1$$                               |
+| **Radius of tumor that has reached an effective temperature** | V_t *r^3 | Vt/V  |
+| ------------------------------------------------------------- | -------- | ----- |
+| 1/4r                                                          | 1/48     | 1/64  |
+| 1/3r                                                          | 4/81     | 1/27  |
+| 1/2r                                                          | 1/6      | 1/8   |
+| 2/3r                                                          | 32/81    | 8/27  |
+| 3/4r                                                          | 9/16     | 27/64 |
+| r                                                             | 4/3      | 1     |
 
 As the table above suggests, the ratio of Vt to V is always the coefficient of the given radius of the tumor cubed. 
 
@@ -184,10 +184,11 @@ V=\int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{0.5+0.345\sin8\theta \sin\phi}\rho
 { #2}
 \sin\phi \: \: \: d\rho d\phi d\theta
 $$
+
 $$
-=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}(0.5+0.345sin8\theta sin\phi)
-{ #3sin}
-\phi \: \: \: d\phi d\theta.
+=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}(0.5+0.345\sin8\theta \sin\phi)
+{ #3}
+\sin\phi \: \: \: d\phi d\theta.
 $$
 $$
 =\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}0.345^3sin^3(8\theta)sin^4(\phi)+3(0.5)(0.345)^2 sin^2(8\theta)sin^3(\phi)+3(0.5)^2(0.345)sin(8\theta)sin^2(\phi)+0.5^3sin(\phi) \: \: \: d\rho d\phi d\theta
@@ -317,7 +318,7 @@ $$
 
 
 $$
-V=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}(0.75+0.35sin8\theta sin4\phi)^3sin\phi \: \: \: d\phi d\theta.
+V=\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}(0.75+0.35\sin8\theta \sin4\phi)^3\sin\phi \: \: \: d\phi d\theta.
 $$
 
 ##### Expanding the integral, we get:
