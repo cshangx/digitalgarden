@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:51:17.721+08:00"}
+{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:52:51.389+08:00"}
 ---
 
 
