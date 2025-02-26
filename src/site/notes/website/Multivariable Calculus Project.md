@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:27:08.782+08:00"}
+{"dg-publish":true,"permalink":"/website/multivariable-calculus-project/","created":"2025-02-18T13:56:32.790+08:00","updated":"2025-02-26T22:33:02.558+08:00"}
 ---
 
 
@@ -10,6 +10,12 @@
 ## Project 3 Chapter 14
 ### Hyperthermia Treatments for Tumors 
 #### February 26, 2025
+
+
+
+
+
+
 
 
 
@@ -88,6 +94,11 @@ It is not necessary to measure the temperature of the tumor's center once we hav
 
 
 
+
+
+
+
+
 ---------------------
 
 ### II. Treating a Spherical Tumor
@@ -145,6 +156,13 @@ $$
 
 
 
+
+
+
+
+
+
+
 ---------------------
 
 ### III. A Tumor Modeled by a Wrinkled Sphere
@@ -162,9 +180,9 @@ $$
 ##### Next, we shall integrate the volume of the wrinkly sphere:
 
 $$
-V=\int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{0.5+0.345sin8\theta sin\phi}\rho
-{ #2sin}
-\phi \: \: \: d\rho d\phi d\theta
+V=\int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{0.5+0.345\sin8\theta \sin\phi}\rho
+{ #2}
+\sin\phi \: \: \: d\rho d\phi d\theta
 $$
 $$
 =\frac{1}{3}\int_{0}^{2\pi}\int_{0}^{\pi}(0.5+0.345sin8\theta sin\phi)
@@ -274,6 +292,13 @@ Although it could be improved, my estimate is somewhat decent.
 
 
 
+
+
+
+
+
+
+
 ---------------------
 
 ### IV. A Tumor Modeled by a Bumpy Sphere
@@ -285,9 +310,9 @@ Although it could be improved, my estimate is somewhat decent.
 
 Integrating the volume of the bumpy sphere, we get:
 $$
-V=\int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{0.75+0.35sin8\theta sin4\phi}\rho
-{ #2sin}
-\phi \: d\rho d\phi d\theta
+V=\int_{0}^{2\pi}\int_{0}^{\pi}\int_{0}^{0.75+0.35\sin8\theta \sin4\phi}\rho
+{ #2}
+ \sin\phi \: d\rho d\phi d\theta
 $$
 
 
@@ -413,11 +438,32 @@ Verifying with a *calculator*, we obtain **2.06036**, which is identical to the 
 
 
 
+
+
+
+
+
+
+
 _________
-Works Cited:
+##### Works Cited:
 
 
+[https://cancer.ca/en/cancer-information/what-is-cancer/types-of-tumours](https://cancer.ca/en/cancer-information/what-is-cancer/types-of-tumours)
 
+[https://www.cancer.org.au/cancer-information/types-of-cancer](https://www.cancer.org.au/cancer-information/types-of-cancer)
+
+[https://www.cancer.org/cancer/managing-cancer/treatment-types.html](https://www.cancer.org/cancer/managing-cancer/treatment-types.html)
+
+[https://www.mayoclinic.org/tests-procedures/cancer-treatment/about/pac-20393344](https://www.mayoclinic.org/tests-procedures/cancer-treatment/about/pac-20393344)
+
+[https://www.cancer.gov/about-cancer/treatment/types](https://www.cancer.gov/about-cancer/treatment/types)
+
+[https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084](https://www.mayoclinic.org/diseases-conditions/brain-tumor/symptoms-causes/syc-20350084)
+
+[https://www.researchgate.net/figure/Examples-of-each-tumor-shape-category-spherical-a-segmental-b-discoidal-c-and_fig2_342882178](https://www.researchgate.net/figure/Examples-of-each-tumor-shape-category-spherical-a-segmental-b-discoidal-c-and_fig2_342882178)
+
+[https://oncolifehospitals.com/2024/06/04/make-informed-decisions-know-your-cancer-treatment-options/](https://oncolifehospitals.com/2024/06/04/make-informed-decisions-know-your-cancer-treatment-options/)
 
 
 
